@@ -106,16 +106,16 @@ That shift in perspective changed the way I think about analytics projects. Coll
 
 ### Exploratory Data Analysis
 
-![EDA Overview](screenshots/eda-overview.png)
+![EDA Overview](eda-overview.png)
 
 ---
 
 ### Market Capitalization Analysis
 
-![Market Capitalization Analysis](screenshots/market-cap-analysis.png)
+![Market Capitalization Analysis](market-cap-analysis.png)
 
 ---
 
 ### Top Cryptocurrency Gainers
 
-![Top Cryptocurrency Gainers](screenshots/top-gainers-analysis.png)
+![Top Cryptocurrency Gainers](top-gainers-analysis.png)
