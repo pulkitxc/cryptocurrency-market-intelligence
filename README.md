@@ -1,11 +1,12 @@
 
 # Cryptocurrency Market Intelligence Pipeline
+This project explores how real-time cryptocurrency market data can be transformed into meaningful business insights using a simple Python analytics workflow.
 
 Working with APIs is often introduced as a simple exercise: send a request, receive a JSON response, convert it into a DataFrame, and export it to CSV. While that demonstrates how to consume an API, it doesn't say much about how analysts actually work with data.
 
 This project started from that same point but gradually shifted toward a different objective. Instead of treating the API response as the final result, I approached it as the beginning of an analytical workflow.
 
-The first challenge wasn't visualization—it was deciding what the dataset should look like. The CoinGecko API returns considerably more information than was needed for the analysis, so the raw response was preserved separately while a second DataFrame was created containing only the fields relevant to the business questions being explored. Separating the raw data from the analytical dataset made later transformations easier without losing the original source.
+The first challenge wasn't visualization—it was deciding what information was actually relevant for the analysis. The CoinGecko API returns considerably more information than was needed for the analysis, so the raw response was preserved separately while a second DataFrame was created containing only the fields relevant to the business questions being explored. Separating the raw data from the analytical dataset made later transformations easier without losing the original source.
 
 Once the data was structured, the next step was exploratory data analysis rather than immediately creating charts. Before asking business questions, it was important to understand the dataset itself—its structure, completeness, distributions, and potential outliers. Looking at summary statistics first made it easier to understand what the visualizations were actually showing.
 
@@ -67,7 +68,11 @@ Visualization & Insights
 
 ```text
 crypto_market_intelligence.ipynb
-crypto_market.csv
+raw_crypto_market.csv
+clean_crypto_market.csv
+eda_overview.png
+market-cap-analysis.png
+top-gainers-analysis.png
 README.md
 ```
 
