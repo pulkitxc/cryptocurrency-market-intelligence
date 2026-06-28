@@ -1,5 +1,3 @@
-# cryptocurrency-market-intelligence
-Real-time cryptocurrency market analysis using the CoinGecko API. Collects, cleans, explores, and visualizes market data with Python, Pandas, and Matplotlib to generate business insights.
 
 # Cryptocurrency Market Intelligence Pipeline
 
@@ -108,16 +106,16 @@ That shift in perspective changed the way I think about analytics projects. Coll
 
 ### Exploratory Data Analysis
 
-![EDA Overview](Downloads/eda-overview.png)
+![EDA Overview](screenshots/eda-overview.png)
 
 ---
 
 ### Market Capitalization Analysis
 
-![Market Capitalization Analysis](Downloads/market-cap-analysis.png)
+![Market Capitalization Analysis](screenshots/market-cap-analysis.png)
 
 ---
 
 ### Top Cryptocurrency Gainers
 
-![Top Cryptocurrency Gainers](Downloads/top-gainers-analysis.png)
+![Top Cryptocurrency Gainers](screenshots/top-gainers-analysis.png)
